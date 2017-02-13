@@ -1,0 +1,1400 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+	font-family: 'PT Sans', sans-serif;
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:after{
+	content: "";
+    display: block;
+    clear: both;
+}
+
+.page-header{
+	background-color: #ffcd34;
+	padding: 15px 0 14px 0;
+}
+
+.logo{
+	width: 180px;
+	float: left;
+	text-decoration: none;
+	color: #000;
+	margin: 4px 149px 6px 0;
+}
+
+.logo-img{
+	vertical-align: middle;
+	padding-right: 17px;
+} 
+.logo-text{
+	font-weight: bold;
+	vertical-align: middle;
+	font-size: 24px;
+}
+
+.logo-text-number{
+	vertical-align: middle;
+	font-size: 24px;
+}
+
+.main-nav{
+	width: 421px;
+	float: left;
+	font-size: 0;
+}
+
+.nav-url{
+	display: inline-block;
+	margin-right: 3px;
+	font-size: 0;
+}
+
+.nav-url:last-child{
+	margin-right: 0;
+}
+
+.nav-url__item{
+	display: inline-block;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 12px 14px;
+	border: 2px solid transparent;
+	opacity: 0.55;
+	color: #000;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.nav-url__item:hover{
+	border: 2px solid rgba(0, 0, 0, 0.3);
+	opacity: 1;
+}
+
+.nav-url__item:active{
+	border: 2px solid rgba(0, 0, 0, 0.6);
+	opacity: 1;
+}
+
+.nav-url__item__active{
+	opacity: 1;
+}
+
+.nav-url__item__active:hover{
+	border: 2px solid transparent;
+}
+
+.nav-url__item__active:active{
+	border: 2px solid transparent;
+}
+
+#call-order{
+	display: none;
+	background-color: #202e3b;
+}
+
+.call-order__text{
+	font-size: 16px;
+}
+
+.btn-order{
+	width: 174px;
+	float: right;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 14px 14px 14px 27px;
+	background-color: #ffe184;
+	color: #000;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.btn-order:hover{
+	background-color: #ffecb2;
+}
+
+.btn-order:active{
+	background-color: #f6bf16;
+}
+
+.promo{
+	position: relative;
+	background-image: url('../img/Excavator_bgrnd.jpg');
+	background-repeat: no-repeat;
+ 	background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 143px 0 119px 0;
+}
+
+.promo:before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+    height: 14px;
+    background-image: repeating-linear-gradient(-45deg, #000, #000 8px, #ffcd34 8px, #ffcd34 15px);
+}
+
+.promo:after{
+	position: absolute;
+	content: '';
+	top: 100%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+    height: 14px;
+	background-image: repeating-linear-gradient(-45deg, #000, #000 8px, #ffcd34 8px, #ffcd34 15px);
+}
+
+.promo-title{
+	color: #fff;
+	font-size: 44px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.promo-text{
+	width: 614px;
+	font-size: 20px;
+	color: #e1e1e1;
+	margin: 18px auto 30px auto;
+}
+
+.btn-catalog{
+	position: relative;
+	display: block;
+	width: 221px;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 9px 20px 10px 0;
+	border: 2px solid;
+	border-color: #ffcd34;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.btn-catalog:before{
+	position: absolute;
+	content: '';
+	width: 10px;
+    height: 10px;
+    border-right: 3px solid #fff;
+    border-top: 3px solid  #fff;
+    transform: rotate(45deg);
+    top: 0;
+    bottom: 0;
+    right: 15px;
+    margin: auto;
+}
+
+.btn-catalog:hover{
+	border-color: #ffd966;
+}
+
+.btn-catalog:active{
+	border-color: #ffe390;
+}
+
+.consult{
+	background-color: #202e3b;
+	padding: 45px 0 40px 0;
+}
+
+.consult-title{
+	font-size: 24px;
+	font-weight: normal;
+	color: #ffcd34;
+	margin-bottom: 35px;
+}
+
+.consult-form{
+	margin: 0 auto 0 auto;
+	font-size: 0;
+}
+
+.consult-form__item{
+	display: inline-block;
+	width: 220px;
+	margin-right: 20px;
+	font-size: 16px;
+	padding: 14px 0 11px 19px;
+	background-color: #202e3b;
+	border: 1px solid;
+	border-color: #ffcd34;
+	color: #fff;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.consult-form__item::-webkit-input-placeholder {
+	color:#fff;
+}
+.consult-form__item::-moz-placeholder          {
+	color:#fff;
+}
+.consult-form__item:-moz-placeholder           {
+	color:#fff;
+}
+.consult-form__item:-ms-input-placeholder      {
+	color:#fff;
+}
+
+.consult-form__item:focus::-webkit-input-placeholder {
+	color: transparent
+}
+.consult-form__item:focus::-moz-placeholder          {
+	color: transparent
+}
+.consult-form__item:focus:-moz-placeholder           {
+	color: transparent
+}
+.consult-form__item:focus:-ms-input-placeholder      {
+	color: transparent
+}
+
+#date{
+	background-image: url('../img/arrow-down.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: 19px 10px;
+	background-size: 19px 10px;
+	background-position: 178px 50%;
+}
+
+.consult-form__item:last-child{
+	background-color: #ffcd34;
+	color: #202e3b;
+	font-weight: bold;
+	margin-right: 0;
+	padding: 14px 0 11px 0;
+}
+
+.consult-form__item:last-child:hover{
+	background-color: #ffd966;
+	cursor: pointer;
+}
+
+.consult-form__item:last-child:focus{
+	background-color: #f6bf16;
+}
+
+.advantages{
+	background-color: #fff;
+	padding: 44px 0;
+}
+
+.advantages-item{
+	float: left;
+	font-size: 13px;
+	color: #000;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.advantages-item-tools{
+	position: relative;
+	width: 224px;
+	padding-left: 62px;
+	margin-right: 27px;
+}
+
+.advantages-item-tools:before{
+	position: absolute;
+	content: '';
+	background-image: url('../img/Adv_tools.png');
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 42px;
+	height: 40px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto 0;
+}
+
+.advantages-item-worker{
+	position: relative;
+	width: 214px;
+	padding-left: 64px;
+	margin-right: 39px;
+}
+
+.advantages-item-worker:before{
+	position: absolute;
+	content: '';
+	background-image: url('../img/Adv_worker.png');
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 46px;
+	height: 40px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto 0;
+}
+
+.advantages-item-border{
+	position: relative;
+	width: 222px;
+	padding-left: 62px;
+	margin-right: 36px;
+}
+
+.advantages-item-border:before{
+	position: absolute;
+	content: '';
+	background-image: url('../img/Adv_border.png');
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 42px;
+	height: 40px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto 0;
+}
+
+.advantages-item-operator{
+	position: relative;
+	width: 178px;
+	padding-left: 50px;
+	margin-right: 0;
+}
+
+.advantages-item-operator:before{
+	position: absolute;
+	content: '';
+	background-image: url('../img/Adv_operator.png');
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 31px;
+	height: 40px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto 0;
+}
+
+.technic{
+	background-color: #f3f3f3;
+	padding: 44px 0 54px 0;
+}
+
+.technic-menu{
+	float: left;
+	width: 182px;
+}
+
+.technic-offers{
+	float: right;
+	width: 700px;
+}
+
+.technic-title{
+	font-size: 26px;
+	font-weight: bold;
+	margin-bottom: 29px;
+}
+
+.technic-nav__item{
+	margin: 20px 0;
+}
+
+.technic-nav__item:last-child{
+	margin: 0;
+}
+
+.technic-nav__url{
+	font-size: 16px;
+	color: #202e3b;
+}
+
+.technic-nav__url:hover{
+	font-weight: bold;
+}
+
+.technic-nav__url:active{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.technic-offers-table{
+	border-collapse: collapse;
+	width: 701px;
+}
+
+.technic-offers-table__line:nth-child(2n+1){
+	background-color: #fff;
+}
+
+.technic-offers-table__line:first-child{
+	font-weight: bold;
+	background-color: #dfdfdf;
+}
+
+.technic-offers-table__column{
+	padding-left: 14px;
+	font-size: 16px;
+	line-height: 36px;
+	color: #000;
+}
+
+.about{
+	position: relative;
+	background-color: #202e3b;
+	padding: 55px 0 44px 0;
+}
+
+.about:before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+    height: 14px;
+	background-image: repeating-linear-gradient(-45deg, #000, #000 8px, #ffcd34 8px, #ffcd34 15px);
+}
+
+.about:after{
+	position: absolute;
+	content: '';
+	top: 100%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+    height: 14px;
+	background-image: repeating-linear-gradient(-45deg, #000, #000 8px, #ffcd34 8px, #ffcd34 15px);
+}
+
+.numbers{
+	width: 268px;
+	float: left;
+}
+
+.reviews{
+	width: 622px;
+	float: right;
+}
+
+.numbers-title{
+	font-size: 26px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 18px;
+}
+
+.numbers-title__innumbers{
+	font-size: 26px;
+	font-weight: normal;
+	color: #fff;
+}
+
+.numbers-list__item{
+	display: block;
+	margin: 20px 0;
+	font-size: 0;
+
+}
+
+.numbers-number{
+	display: inline-block;
+	font-size: 38px;
+	font-weight: bold;
+	color: #f1b132;
+	margin-right: 15px;
+	vertical-align: middle;
+}
+
+.numbers-text{
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	color: #9e9e9e;
+	vertical-align: middle;
+	padding-top: 5px;
+}
+
+.reviews-item{
+	margin-top: 35px;
+	font-size: 0;
+}
+
+.reviews-img__wrapper{
+	display: inline-block;
+	width: 126px;
+	height: 126px;
+	margin-right: 19px;
+	border: 3px solid;
+	border-color: #f1b132;
+	border-radius: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.reviews-text{
+	display: inline-block;
+	vertical-align: top;
+	width: 470px;
+	font-size: 18px;
+	font-style: italic;
+	color: #fff;
+}
+
+.reviews-author{
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: normal;
+	color: #f1b132;
+	margin-top: 11px;
+}
+
+.map{
+	padding-top: 14px;
+}
+
+.page-footer{
+	padding: 15px 0 14px 0;
+	background-color: #202e3b;
+}
+
+.page-footer .logo-text, 
+.page-footer .logo-text-number,
+.page-footer .btn-order{
+	color: #ffcd34;
+}
+
+.page-footer .nav-url__item{
+	color: #fff;
+	opacity: 1;
+}
+
+.page-footer .nav-url__item:hover{
+	border: 2px solid rgba(255, 255, 255, 0.3);
+	opacity: 1;
+}
+
+.page-footer .nav-url__item:active{
+	border: 2px solid rgba(255, 255, 255, 0.6);
+	opacity: 1;
+}
+
+.page-footer .nav-url__item__active:hover{
+	border: 2px solid transparent;
+}
+
+.page-footer .nav-url__item__active:hover{
+	border: 2px solid transparent;
+}
+
+.page-footer .btn-order{
+	background-color: #202e3b;
+}
+
+/*Страница Портфолио*/
+
+.portfolio{
+	position: relative;
+	background-color: #202e3b;
+	background-image: url('../img/Excavator_bgrnd_portfolio.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding: 51px 0 41px 0;
+}
+
+.portfolio:before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+    height: 14px;
+	background-image: repeating-linear-gradient(-45deg, #000, #000 8px, #ffcd34 8px, #ffcd34 15px);
+}
+
+.portfolio-title{
+	float: left;
+	text-decoration: none;
+}
+
+.portfolio-title__text{
+	font-size: 24px;
+	color: #ffcd34;
+	font-weight: normal;
+	margin: 0;
+}
+
+.portfolio-menu{
+	float: right;
+	font-size: 0;
+}
+
+.portfolio-menu__item{
+	display: inline-block;
+	margin: 4px 39px 5px 0;
+}
+
+.portfolio-menu__item:last-child{
+	margin-right: 0;
+}
+
+.portfolio-menu__url{
+	font-size: 16px;
+	color: #fff;
+}
+
+.portfolio-menu__url:hover{
+	font-weight: bold;
+}
+
+.portfolio-menu__url:active{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.building{
+	background-color: #202e3b;
+	background-image: url('../img/portfolio-building-bgrnd-1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-top: 10px solid #000;
+	padding: 102px 0 152px 0;
+}
+
+.building-2{
+	background-image: url('../img/portfolio-building-bgrnd-2.jpg');
+}
+
+.building-3{
+	position: relative;
+	background-image: url('../img/portfolio-building-bgrnd-3.jpg');
+	margin-bottom: 14px;
+}
+
+.building-3:after{
+	position: absolute;
+	content: '';
+	top: 100%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+    height: 14px;
+	background-image: repeating-linear-gradient(-45deg, #000, #000 8px, #ffcd34 8px, #ffcd34 15px);
+}
+
+.building-about{
+	background-color: #fff;
+	width: 322px;
+	padding: 26px 27px 30px 30px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.building-about__title{
+	width: 266px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #202e3b;
+}
+
+.building-about__text{
+	width: 266px;
+	font-size: 14px;
+	color: #202e3b;
+	margin: 9px 0 15px 0;
+	line-height: 20px;
+}
+
+.button-more{
+	position: relative;
+	display: block;
+	width: 126px;
+	color: #1d333f;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 11px 0 12px 16px;
+	background-color: #ffcd34;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.button-more:before{
+	position: absolute;
+	content: '';
+	width: 10px;
+    height: 10px;
+    border-right: 4px solid #1d333f;
+    border-top: 4px solid  #1d333f;
+    transform: rotate(45deg);
+    top: 0;
+    bottom: 0;
+    right: 15px;
+    margin: auto;
+}
+
+.button-more:hover{
+	background-color: #ffd966;
+}
+
+.button-more:active{
+	background-color: #f6bf16;
+}
+
+.consult-portfolio{
+	padding-top: 30px;
+}
+
+.advantages-item-worker_portfolio{
+	/*margin-right: 20px;*/
+}
+
+/*Страница Каталог*/
+
+.technic-rent{
+	position: relative;
+	background-color: #202e3b;
+	background-image: url('../img/Excavator_bgrnd_catalog-2.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding: 57px 0 52px 0;
+}
+
+.technic-rent:before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+    height: 14px;
+	background-image: repeating-linear-gradient(-45deg, #000, #000 8px, #ffcd34 8px, #ffcd34 15px);
+}
+
+.catalog-box-left{
+	float: left;
+}
+
+.catalog-box-right{
+	float: right;
+}
+
+.catalog-title{
+	font-size: 26px;
+	font-weight: normal;
+	color: #ffcd34;
+	margin: 0 0 12px 0;
+}
+
+.catalog-text{
+	width: 610px;
+}
+
+.catalog-text__item{
+	display: block;
+	font-size: 16px;
+	color: #fff;
+}
+
+.catalog-consult-button{
+	display: block;
+	width: 240px;
+	background-color: #ffcd34;
+	font-size: 18px;
+	font-weight: bold;
+	color: #202e3b;
+	text-decoration: none;
+	text-align: center;
+	padding: 13px 0 12px 0;
+	margin-bottom: 13px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.catalog-consult-button:hover{
+	background-color: #ffd966;
+}
+
+.catalog-consult-button:active{
+	background-color: #f6bf16;
+}
+
+.catalog-button-text{
+	display: block;
+	width: 240px;
+	font-size: 16px;
+	color: #fff;
+	text-align: left;
+}
+
+.technic-all{
+	background-color: #f3f3f3;
+	padding: 15px 0 46px 0;
+}
+
+.technic-menu{
+	float: left;
+	width: 185px;
+}
+
+.subtitle{
+	position: relative;
+	font-size: 26px;
+	color: #000;
+	padding-left: 47px;
+	margin: 10px 0 19px 0;
+}
+
+.subtitle:before{
+	position: absolute;
+	content: '';
+	background-image: url('../img/logo_small_catalog.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: auto;
+	background-size: auto;
+	width: 31px;
+	height: 24px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto 0;
+}
+
+.technic-nav ul{
+	list-style-type: none;
+}
+
+.technic-nav-url__item{
+	font-size: 16px;
+	line-height: 38px;
+	color: #353535;
+}
+
+.technic-nav-url__item:hover{
+	font-weight: bold;
+}
+
+.technic-nav-url__item:active{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.technic-nav-url__item_active{
+	position: relative;
+	font-weight: bold;
+	padding-left: 15px;
+	text-decoration: none;
+}
+
+.technic-nav-url__item_active:before{
+	position: absolute;
+	content: '';
+	width: 5px;
+    height: 5px;
+    border-right: 2px solid #000;
+    border-top: 2px solid  #000;
+    transform: rotate(45deg);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto 0;
+}
+
+.download-pdf{
+	position: relative;
+	width: 221px;
+	background-color: #354b60;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+	outline: none;
+	padding: 9px 9px 9px 32px;
+	margin-top: 18px;
+	cursor: pointer;
+}
+
+.download-pdf:hover{
+	background-color: #46617a;
+}
+
+.download-pdf:active{
+	background-color: #567999;
+}
+
+.download-pdf:before{
+	position: absolute;
+	content: '';
+	background-image: url('../img/download-pdf-button.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: auto;
+	background-size: auto;
+	width: 17px;
+	height: 18px;
+	top: 0;
+	bottom: 0;
+	left: 11px;
+	right: 0;
+	margin: auto 0;
+}
+
+.technic-all-offers{
+	width: 640px;
+	float: right;
+	font-size: 0;
+}
+
+.technic-offer{
+	width: 300px;
+	display: inline-block;
+	position: relative;
+	background-color: #fff;
+	padding: 28px 30px 34px 30px;
+	margin: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+	font-size: 0;
+}
+
+.technic-offer_badge{
+	position: absolute;
+	display: block;
+	width: 106px;
+	height:34px;
+	top: 5px;
+	right: -30px;
+	transform: rotate(45deg);
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+	background-color: #00c22e;
+	text-align: center;
+	padding-top: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.offer-title{
+	width: 201px;
+	font-size: 21px;
+	color: #000;
+	margin-bottom: 31px;
+}
+
+.excavator-img{
+	display: block;
+	margin: 0 auto;
+}
+
+.offer-text{
+	margin: 36px 0 19px 0;
+}
+
+.offer-text__price{
+	font-size: 27px;
+	color: #000;
+	font-weight: bold;
+}
+
+.offer-text__period{
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+	margin-left: 6px;
+}
+
+.button-rent{
+	display: inline-block;
+	width: 120px;
+	background-color: #f3c331;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.button-rent:hover{
+	background-color: #ffd966;
+}
+
+.button-rent:active{
+	background-color: #ffc600;
+}
+
+.button-rent__more{
+	display: inline-block;
+	width: 120px;
+	background-color: #354b60;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.button-rent__more:hover{
+background-color: #46617a;
+}
+
+.button-rent__more:active{
+background-color: #567999;
+}
+
+.technic-gallery__nav{
+	display: block;
+	width: 120px;
+	padding-left: 10px;
+	margin: 36px auto 0 auto;
+	font-size: 0;
+}
+
+.gallery-nav__item{
+	display: inline-block;
+}
+
+.gallery-nav__url{
+	display: block;
+	width: 22px;
+	font-size: 16px;
+	color: #353535;
+	text-decoration: none;
+	padding-bottom: 1px;
+	margin-right: 7px;
+	text-align: center;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.gallery-nav__url:hover{
+	background-color: #46617a;
+	color: #fff;
+}
+
+.gallery-nav__url:active{
+	background-color: #567999;
+	color: #fff;
+}
+
+.gallery-nav__url_active{
+	color: #fff;
+	background-color: #354b60;
+	border: 1px solid #354b60;
+	border-radius: 2px;
+}
+
+.special-offer{
+	background-image: url('../img/Excavator_bgrnd_catalog.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 40px 0 49px 0;
+}
+
+.special-offer__title{
+	font-size: 26px;
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+.special-offer__item{
+	width: 300px;
+	position: relative;
+	float: left;
+	background-color: #fff;
+	padding: 23px 30px 34px 30px;
+	margin-right: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+	font-size: 0;
+}
+
+.special-offer
+.technic-offer_badge{
+	background-color: #d12222;
+}
+
+.special-offer__item:last-child{
+	margin-right: 0;
+}
+
+.special-offer__item .offer-text__price{
+	font-size: 22px;
+}
+
+.offer-text__price_replaced{
+	font-size: 22px;
+	font-weight: bold;
+	color: #d12222;
+	text-decoration: line-through;
+	margin-right: 15px;
+}
+
+/*Страница Контакты*/
+
+.contact-us{
+	position: relative;
+	padding: 44px 0 30px 0;
+	background-image: url('../img/Excavator_bgrnd_contacts.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: bottom;
+}
+
+.contact-us:before{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+    height: 14px;
+	background-image: repeating-linear-gradient(-45deg, #000, #000 8px, #ffcd34 8px, #ffcd34 15px);
+}
+
+.contact-us__title{
+	float: left;
+	font-size: 26px;
+	font-weight: normal;
+	color: #ffcd34;
+	margin: 5px 15px 0 0;
+}
+
+.contact-us__text{
+	float: left;
+	width: 270px;
+	font-size: 16px;
+	color: #fff;
+	text-align: left;
+	margin-top: 13px;
+}
+
+.contact-us__button{
+	float: right;
+	width: 240px;
+	background-color: #ffcd34;
+	font-size: 18px;
+	font-weight: bold;
+	color: #202e3b;
+	text-decoration: none;
+	text-align: center;
+	padding: 13px 0 12px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.contact-us__button:hover{
+	background-color: #ffd966;
+}
+
+.contact-us__button:active{
+	background-color: #f6bf16;
+}
+
+.contacts-all{
+	background-color: #f3f3f3;
+	padding: 40px 0 51px 0;
+}
+
+.contacts-map{
+	float: left;
+	width: 620px;
+	height: 395px;
+	border: 1px solid #d5d5d5;
+}
+
+.contacts-options{
+	float: right;
+	width: 300px;
+}
+
+.phone{
+	position: relative;
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 40px;
+	margin-bottom: 20px;
+}
+
+.phone:before{
+	position: absolute;
+	content: '';
+	background-image: url('../img/contacts-phone-img.png');
+	background-repeat: no-repeat;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 20px;
+    height: 20px;
+}
+
+.email{
+	position: relative;
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 40px;
+	margin-bottom: 25px;
+}
+
+.email:before{
+	position: absolute;
+	content: '';
+	background-image: url('../img/contacts-email-img.png');
+	background-repeat: no-repeat;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 23px;
+    height: 17px;
+}
+
+.contacts-title__get-consult{
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+
+.contacts__consult-form__item{
+	width: 300px;
+	font-size: 16px;
+	color: #b0b0b0;
+	outline: none;
+	border: 1px solid #b0b0b0;
+	padding: 10px 0 10px 12px;
+	margin-bottom: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.contacts__consult-form__item:focus{
+	color: #354b60;
+}
+
+.contacts__consult-form__item:last-child{
+	color: #fff;
+	border: none;
+	background-color: #354b60;
+	padding: 14px 0 13px 0;
+	margin: 11px 0 0 0;
+	cursor: pointer;
+}
+
+.contacts__consult-form__item:last-child:hover{
+	background-color: #46617a;
+}
+
+.contacts__consult-form__item:last-child:active{
+	background-color: #567999;
+}
+
+.contacts-reviews{
+	padding: 28px 0 69px 0;
+}
+
+.contacts-reviews__subtitle{
+	font-size: 26px;
+	color: #202e3b;
+	margin-bottom: 26px;
+}
+
+.contacts-reviews__item{
+	float: left;
+	width: 220px;
+	margin-right: 20px;
+}
+
+.contacts-reviews__item:last-child{
+	margin-right: 0;
+}
+
+.contacts-reviews__img_wrapper{
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+}
+
+.contacts-reviews__text{
+	width: 100%;
+	font-size: 14px;
+	color: #202e3b;
+	font-style: italic;
+	text-align: center;
+	margin-top: 23px;
+}
+
+.contacts-reviews__author{
+	display: block;
+	font-size: 14px;
+	color: #202e3b;
+	font-weight: bold;
+	text-align: center;
+	font-style: normal;
+	margin-top: 13px;
+}
